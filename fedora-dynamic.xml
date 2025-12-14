@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+
+  <wallpaper>
+    <name>Fedora 33</name>
+
+    <filename>file:///home/{{ YOUR USER }}/.local/share/backgrounds/fedora33/day.jpg</filename>
+    <filename-dark>file:///home/{{ YOUR USER }}/.local/share/backgrounds/fedora33/night.jpg</filename-dark>
+
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+
+  <wallpaper>
+    <name>Fedora 37</name>
+
+    <filename>file:///home/{{ YOUR USER  }}/.local/share/backgrounds/fedora37/day.jpg</filename>
+    <filename-dark>file:///home/{{ YOUR USER  }}/.local/share/backgrounds/fedora37/night.jpg</filename-dark>
+
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+
+  <wallpaper>
+    <name>Fedora 43</name>
+
+    <filename>file:///home/{{ YOUR USER  }}/.local/share/backgrounds/fedora43/day.png</filename>
+    <filename-dark>file:///home/{{ YOUR USER  }}/.local/share/backgrounds/fedora43/night.png</filename-dark>
+
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+
+</wallpapers>
+
