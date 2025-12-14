@@ -28,13 +28,19 @@ Se pueden decargar mas desde la [wiki de fedora](https://fedoraproject.org/wiki/
 ```
 
 ## 📦 Instalación
-1. Copiar fondos
+1. Clonar repositorio
+```bash
+git clone https://github.com/azagramac/gnome-dynamic-wallpaper.git
+cd gnome-dynamic-wallpaper
+```
+
+2. Copiar fondos
 ```bash
 mkdir -p ~/.local/share/backgrounds
 cp -r fedora33 fedora37 fedora43 ~/.local/share/backgrounds/
 ```
 
-2. Copiar el descriptor XML
+3. Copiar el descriptor XML
 ```bash
 mkdir -p ~/.local/share/gnome-background-properties
 cp fedora-dynamic.xml ~/.local/share/gnome-background-properties/
