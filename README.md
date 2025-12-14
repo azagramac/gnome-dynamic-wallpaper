@@ -44,12 +44,12 @@ cp fedora-dynamic.xml ~/.local/share/gnome-background-properties/
 
 
 ## 🌗 Cambiar el modo claro / oscuro manualmente
-# Modo claro
+Modo claro
 ```bash
 gsettings set org.gnome.desktop.interface color-scheme 'default'
 ```
 
-# Modo oscuro
+Modo oscuro
 ```bash
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 ```
@@ -63,7 +63,7 @@ gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 ## 📝 Notas
 
-08:00 → modo claro
+08:00 → modo claro <br>
 19:00 → modo oscuro
 
 `DISPLAY=:0` y `DBUS_SESSION_BUS_ADDRESS` apuntan a la sesión gráfica activa
